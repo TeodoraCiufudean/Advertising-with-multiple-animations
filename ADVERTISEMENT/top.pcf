@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 26 12:26:09 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cat<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "cat<5>" LOCATE = SITE "R10" LEVEL 1;
+COMP "cat<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "btn1" LOCATE = SITE "J15" LEVEL 1;
+COMP "btn2" LOCATE = SITE "L16" LEVEL 1;
+COMP "btn3" LOCATE = SITE "M13" LEVEL 1;
+COMP "btn4" LOCATE = SITE "R15" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "cat<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "cat<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "cat<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "cat<3>" LOCATE = SITE "K13" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "d/t_0" BEL "d/t_1" BEL "d/t_2" BEL "d/t_3" BEL
+        "d/t_4" BEL "d/t_5" BEL "d/t_6" BEL "d/t_7" BEL "d/t_8" BEL "d/t_9"
+        BEL "d/t_10" BEL "d/t_11" BEL "d/t_12" BEL "d/t_13" BEL "d/t_14" BEL
+        "d/t_15" BEL "d/t_16" BEL "d/t_17" BEL "d/t_18" BEL "d/t_19" BEL
+        "d/t_20" BEL "d/t_21" BEL "d/t_22" BEL "d/t_23" BEL "d/t_24" BEL
+        "d/t_25" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

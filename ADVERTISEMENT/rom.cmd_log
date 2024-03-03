@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Memory.vhd -prj ADVERTISEMENT -o rom.spl -module rom -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 rom.spl C:/Proiecte_xilinx/ADVERTISEMENT/rom.sym 

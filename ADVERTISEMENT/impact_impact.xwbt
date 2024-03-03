@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Proiecte_xilinx\ADVERTISEMENT\impact.xsl
+OUTFILE=C:\Proiecte_xilinx\ADVERTISEMENT\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Proiecte_xilinx\ADVERTISEMENT
+LICENSE=iMPACT
+USER_INFO=iMPACT

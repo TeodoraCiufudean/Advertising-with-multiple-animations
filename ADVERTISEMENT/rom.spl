@@ -1,0 +1,6 @@
+[Inputs]
+CS_ROM
+=A_ROM[4:0]=
+[Outputs]
+=D_ROM[6:0]=
+[BiDir]

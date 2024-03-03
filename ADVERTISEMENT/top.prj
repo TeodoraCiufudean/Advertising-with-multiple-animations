@@ -1,0 +1,8 @@
+vhdl work "Memory.vhd"
+vhdl work "FreqDiv.vhd"
+vhdl work "Button.vhd"
+vhdl work "Animation_4.vhd"
+vhdl work "Animation_3.vhd"
+vhdl work "Animation_2.vhd"
+vhdl work "Animation_1.vhd"
+vhdl work "AllComp.vhd"
